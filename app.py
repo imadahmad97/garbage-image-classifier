@@ -6,8 +6,8 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/contact-us')
+@app.route('/about')
 def contact_us():
-    return render_template('contact_us.html')
+    return render_template('about.html')
 
 app.run()
