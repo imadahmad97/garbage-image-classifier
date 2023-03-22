@@ -23,17 +23,20 @@
     </div>
   </div>
 
-  <div class="upload_box">
-    <input type="file" id="file-input" multiple />
-    <label for="file-input">
-      <i class="fa-solid fa-arrow-up-from-bracket"></i>
-      &nbsp; Choose Files To Upload
-    </label>
-    <div id="num-of-files">
-      No Files Choosen
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <div class="upload_box">
+      <input type="file" name="file" id="file-input" multiple />
+      <label for="file-input">
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        &nbsp; Choose Files To Upload
+      </label>
+      <div id="num-of-files">
+        No Files Choosen
+      </div>
+      <ul id="files-list"></ul>
     </div>
-    <ul id="files-list"></ul>
-  </div>
+    <button type="submit">Submit</button>
+  </form>
 
   <div class="footer">
     <a href="https://github.com/imadahmad97/garbage-image-classifier">
