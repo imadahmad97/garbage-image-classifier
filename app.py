@@ -14,4 +14,5 @@ def how_it_works():
 def about_us():
     return render_template('about_us.html')
 
-app.run(port=5001)
+if __name__ == '__main__':
+    app.run(port=5002)
