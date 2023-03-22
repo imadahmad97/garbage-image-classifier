@@ -1,9 +1,11 @@
 from flask import Flask, render_template, request
+from PIL import Image
+import numpy as np
 import pickle
 
 app = Flask(__name__)
 
-with open('test_model.pkl', 'rb') as f:
+with open('flask_app/test_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 @app.route('/')
@@ -21,8 +23,7 @@ def about_us():
 @app.route('/upload', methods=['POST'])
 def upload():
     file = request.files['file']
-    result = model.predict(file.read())
-    return result
+    how_it_works()
 
 if __name__ == '__main__':
     app.run(port=5003)
