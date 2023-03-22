@@ -3,6 +3,9 @@
 /* Styling links in header */
   .header{
     padding-bottom:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .header a {
     float: left;
@@ -28,6 +31,7 @@
 /* Make header links appear on right */
   .header-right {
     float: right;
+    margin-left: auto;
   }
 
 /* Styles applied to all elements */
@@ -98,10 +102,9 @@
           float: none;
         }
       }*/
-
-.logo {
-display: block;
-margin: 0 auto;
-}
+      .logo {
+        margin-right: auto; /* Add some margin to push the header-right links to the right */
+      }
+      
       
       
