@@ -1,120 +1,119 @@
-
-
-/* Styling links in header */
-  .header{
-    padding-bottom:250px;
-    display: flex;
+.header{
+  padding-bottom:250px;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
   
-  .header a {
-    float: left;
-    color: #40513B;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-/* Change the background color of header links on mouse-over */
-  .header a:hover {
-    background-color: #609966;
-    color: #40513B;
-  }
-/* Style the active/current header link*/
-  .header a.active {
-    background-color: #609966;
-    color: white;
-  }
-  
-/* Make header links appear on right */
-  .header-right {
-    float: right;
-    margin-left: auto;
-  }
+.header a {
+  float: left;
+  color: #40513B;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
 
-/* Styles applied to all elements */
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
+.header a:hover {
+  background-color: #609966;
+  color: #40513B;
+}
 
-  body {
-    background-color: #EDF1D6;
-  }
-  .container {
-    background-color: #ffffff;
-    width: 90%;
-    max-width: 34.37em;
-    position: relative;
-    margin: 1.12em auto;
-    padding: 3.12em 1.25em;
-    border-radius: 0.43em;
-    box-shadow: 0 1.25em 2.18em rgb(1, 28, 71, 0.3);
-  }
-  input[type="file"] {
-    display: none;
-  }
-  label {
-    display: block;
-    position: relative;
-    background-color: #609966;
-    color: #ffffff;
-    font-size: 1.12em;
-    font-weight: 500;
-    text-align: center;
-    width: 18.75em;
-    padding: 1.12em 0;
-    margin: auto;
-    border-radius: 0.31em;
-    cursor: pointer;
-  }
-  #num-of-files {
-    font-weight: 400;
-    text-align: center;
-    margin: 1.25em 0 1.87em 0;
-  }
-  ul {
-    list-style-type: none;
-  }
-  .container li {
-    font-weight: 500;
-    background-color: #eff5ff;
-    color: #025bee;
-    margin-bottom: 1em;
-    padding: 1.1em 1em;
-    border-radius: 0.3em;
-    display: flex;
-    justify-content: space-between;
-  }
+.header a.active {
+  background-color: #609966;
+  color: white;
+}
 
-    /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other
-    @media screen and (max-width: 500px) {
-        .header a {
-          float: none;
-          display: block;
-          text-align: left;
-        }
-        .header-right {
-          float: none;
-        }
-      }*/
-      .logo {
-        display: block;
+.header-right {
+  float: right;
+  margin-left: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #EDF1D6;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 34.37em;
+  position: relative;
+  margin: 1.12em auto;
+  padding: 3.12em 1.25em;
+  border-radius: 0.43em;
+  box-shadow: 0 1.25em 2.18em rgb(1, 28, 71, 0.3);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  display: block;
+  position: relative;
+  background-color: #609966;
+  color: #ffffff;
+  font-size: 1.12em;
+  font-weight: 500;
+  text-align: center;
+  width: 18.75em;
+  padding: 1.12em 0;
+  margin: auto;
+  border-radius: 0.31em;
+  cursor: pointer;
+}
+
+#num-of-files {
+  font-weight: 400;
+  text-align: center;
+  margin: 1.25em 0 1.87em 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container li {
+  font-weight: 500;
+  background-color: #eff5ff;
+  color: #025bee;
+  margin-bottom: 1em;
+  padding: 1.1em 1em;
+  border-radius: 0.3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other
+@media screen and (max-width: 500px) {
+.header a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.header-right {
+  float: none;
+}
+}*/
+.logo {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 0%;
+}
 
-      }
-      .nav {
-        display: flex;
-        justify-content: flex-end;
-      }
+      
+     
       
       
       
