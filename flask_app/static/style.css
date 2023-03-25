@@ -141,6 +141,10 @@ ul {
   padding: 3.12em 1.25em;
   border-radius: 0.43em;
   box-shadow: 0 1.25em 2.18em rgb(1, 28, 71, 0.3);
+  display: flex;       
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
 }
 
 .upload_box input[type="file"] {
@@ -167,7 +171,5 @@ ul {
   border-radius: 0.43em;
   font-size: 1em;
   cursor: pointer;
-  position: absolute;
-  right: 1.25em;
-  bottom: 1.25em;
+  margin-top: 1em;
 }      
