@@ -23,7 +23,11 @@ def about_us():
 @app.route('/upload', methods=['POST'])
 def upload():
     file = request.files['file']
-    how_it_works()
+    img_resized = img.resize((15, 15)) # resize image
+    img_array = np.array(img_resized) # convert image to numpy array
+    img_array_flattened = img_array.flatten() # flatten numpy array
+    prediction = model.predict([img_array_flattened]) # pass flattened array to model's predict method
+    return str(prediction[0]) # return predicted result to user as string
 
 if __name__ == '__main__':
     app.run(port=5003)
