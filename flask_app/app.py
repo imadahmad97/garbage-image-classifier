@@ -3,6 +3,12 @@ from PIL import Image
 import numpy as np
 import pickle
 
+label_mapping = {
+    0: 'compostable',
+    1: 'recyclable',
+    2: 'trash'
+}
+
 app = Flask(__name__)
 
 with open('flask_app/test_model.pkl', 'rb') as f:
@@ -23,11 +29,13 @@ def about_us():
 @app.route('/upload', methods=['POST'])
 def upload():
     file = request.files['file']
-    img_resized = file.resize((15, 15)) # resize image
-    img_array = np.array(img_resized) # convert image to numpy array
-    img_array_flattened = img_array.flatten() # flatten numpy array
-    prediction = model.predict([img_array_flattened]) # pass flattened array to model's predict method
-    return str(prediction[0]) # return predicted result to user as string
+    img = Image.open(file)
+    img_resized = img.resize((15, 15))
+    img_array = np.array(img_resized)
+    img_array_flattened = img_array.flatten()
+    prediction = model.predict([img_array_flattened])
+    category = label_mapping[prediction[0]]
+    return category
 
 if __name__ == '__main__':
     app.run(port=5003)
