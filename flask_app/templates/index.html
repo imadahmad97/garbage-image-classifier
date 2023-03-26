@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" type = text/css href="{{ url_for('static',filename='style.css') }}">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -37,7 +38,9 @@
       <button type="submit">Submit</button>
     </div>
   </form>
-
+  <div id="result" class="result">
+    This is the result
+  </div>
   <div class="footer">
     <a href="https://github.com/imadahmad97/garbage-image-classifier">
       <img src="https://i.ibb.co/6vfHtG0/github-mark.png" alt="Visit Our Github!" border="0" class="github_logo">
