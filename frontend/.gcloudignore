@@ -1,0 +1,4 @@
+.git
+.gcloudignore
+.gitignore
+__pycache__

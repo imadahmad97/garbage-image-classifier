@@ -1,0 +1,8 @@
+.play_button {
+    visibility : hidden;
+    width : 50%;
+}
+
+body {
+    background-color: #EDF1D6;
+}
