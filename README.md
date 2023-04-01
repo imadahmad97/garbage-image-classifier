@@ -1,6 +1,4 @@
-<div style="background-color: #ffffff; padding: 10px;">
-
-# Garbage Bin Sorter
+# Garbage Bin Sorter - Overview
 Garbage bin sorter is a image classification model for images of waste. It sorts the images into one of:
 
  1. Trash
