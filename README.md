@@ -19,7 +19,9 @@ The image classification model is a convolutional neural network built with Kera
 # [Trash Sorting Robot (TSR)](https://www.youtube.com/watch?v=s5CwtBsv_bo)
 Upon building the model, I decided to put it into application in the form of a Trash Sorting Robot (TSR). A video of the robot in action can be seen [here](https://www.youtube.com/watch?v=s5CwtBsv_bo).
 
-The robot was built on a Raspberry Pi 3 single board computer. I controlled the trash lids with servo motors, two of which were powered by their own 9V batteries, and one that was powered by the Raspberry Pi itself. The Raspberry Pi was also connected to a camera module to scan the trash. Below is a schematic diagram of the 
+The robot was built on a Raspberry Pi 3 single board computer. I controlled the trash lids with servo motors, two of which were powered by their own 9V batteries, and one that was powered by the Raspberry Pi itself. The Raspberry Pi was also connected to a camera module to scan the trash. Below is a schematic diagram of the robot:
+
+<a href="https://ibb.co/60QK9bj"><img src="https://i.ibb.co/nMpXdfx/Raspberry-Pi-Diagram-2.png" alt="Raspberry-Pi-Diagram-2" border="0"></a>
 
 # [Mobile Web Application](https://gargabe-classifier-jxq632gueq-uc.a.run.app/)
 The application was built on a Dash framework. Then, we built a Docker container with all the app dependencies. Finally, the docker was deployed to Google Cloud Run. 
