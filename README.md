@@ -22,3 +22,4 @@ Upon building the model, I decided to put it into application in the form of a T
 The robot was built on a Raspberry Pi 3 single board computer. I controlled the trash lids with servo motors, two of which were powered by their own 9V batteries, and one that was powered by the Raspberry Pi itself. The Raspberry Pi was also connected to a camera module to scan the trash. Below is a schematic diagram of the 
 
 # [Mobile Web Application](https://gargabe-classifier-jxq632gueq-uc.a.run.app/)
+The application was built on a Dash framework. Then, we built a Docker container with all the app dependencies. Finally, the docker was deployed to Google Cloud Run. 
