@@ -31,5 +31,9 @@ Looking the the back of the trash bins, we can see the servo motor taped to the 
 
 <a href="https://ibb.co/fd7bzSG"><img src="https://i.ibb.co/YBG6FWT/Picture1.png" alt="Picture1" border="0"></a>
 
+Finally, I decided to show a top-down view. This shows all the wiring and connections. You can see the two batteries as well, next to the Pi:
+
+<a href="https://ibb.co/FHg27w6"><img src="https://i.ibb.co/fD4f0pM/Screenshot-2023-03-31-at-4-35-50-AM.png" alt="Screenshot-2023-03-31-at-4-35-50-AM" border="0"></a>
+
 # [Mobile Web Application](https://gargabe-classifier-jxq632gueq-uc.a.run.app/)
 The application was built on a Dash framework. Then, we built a Docker container with all the app dependencies. Finally, the docker was deployed to Google Cloud Run. 
