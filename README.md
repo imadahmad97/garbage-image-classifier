@@ -23,5 +23,9 @@ The robot was built on a Raspberry Pi 3 single board computer. I controlled the 
 
 <a href="https://ibb.co/60QK9bj"><img src="https://i.ibb.co/nMpXdfx/Raspberry-Pi-Diagram-2.png" alt="Raspberry-Pi-Diagram-2" border="0"></a>
 
+Taking a look at the robot from the front view, we can see the (tiny) camera module connected to the Pi. Note that in future iterations, a stronger camera with it's own power supply will produce better results:
+
+<a href="https://ibb.co/jGMP7Pz"><img src="https://i.ibb.co/mtqVQV0/IMG-0672.jpg" alt="IMG-0672" border="0"></a>
+
 # [Mobile Web Application](https://gargabe-classifier-jxq632gueq-uc.a.run.app/)
 The application was built on a Dash framework. Then, we built a Docker container with all the app dependencies. Finally, the docker was deployed to Google Cloud Run. 
