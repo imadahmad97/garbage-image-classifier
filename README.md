@@ -27,5 +27,9 @@ Taking a look at the robot from the front view, we can see the (tiny) camera mod
 
 <a href="https://ibb.co/jGMP7Pz"><img src="https://i.ibb.co/mtqVQV0/IMG-0672.jpg" alt="IMG-0672" border="0"></a>
 
+Looking the the back of the trash bins, we can see the servo motor taped to the back. This motor is connected to a circular disk that has a string tied to it. This string is taped to the lid at the top, so that when the motor spins the lid is pulled:
+
+<a href="https://ibb.co/fd7bzSG"><img src="https://i.ibb.co/YBG6FWT/Picture1.png" alt="Picture1" border="0"></a>
+
 # [Mobile Web Application](https://gargabe-classifier-jxq632gueq-uc.a.run.app/)
 The application was built on a Dash framework. Then, we built a Docker container with all the app dependencies. Finally, the docker was deployed to Google Cloud Run. 
