@@ -36,4 +36,4 @@ Finally, I decided to show a top-down view. This shows all the wiring and connec
 <a href="https://ibb.co/FHg27w6"><img src="https://i.ibb.co/fD4f0pM/Screenshot-2023-03-31-at-4-35-50-AM.png" alt="Screenshot-2023-03-31-at-4-35-50-AM" border="0"></a>
 
 # [Mobile Web Application](https://gargabe-classifier-jxq632gueq-uc.a.run.app/)
-The application was built on a Dash framework. Then, we built a Docker container with all the app dependencies. Finally, the docker was deployed to Google Cloud Run. 
+The application was built on plotly dash and deployed through the google cloud platform. Docker was used to store the container. 
